@@ -10,6 +10,6 @@ with open('day1.txt') as f:
 # first solution
 print(max(lines))
 
-#second solution
+# second solution
 lines.sort(reverse=True)
-print(lines[0])
+print(sum(lines[:3]))
